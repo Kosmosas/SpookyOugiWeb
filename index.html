@@ -11,29 +11,31 @@
     <link rel="stylesheet" href="./gaidys.css">
 </head>
 <body>
+    <div id="main"></div>
 
 <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">SPOOKY</a>
+        <a class="pure-menu-heading" href="#main">SPOOKY</a>
 
         <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Spooky</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Buy</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Roadmap</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Testimonials</a></li>
+            <li class="pure-menu-item pure-menu-selected"><a href="" class="pure-menu-link">Spooky</a></li>
+            <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
+            <li class="pure-menu-item"><a href="#buy" class="pure-menu-link">Buy</a></li>
+            <li class="pure-menu-item"><a href="#roadmap" class="pure-menu-link">Roadmap</a></li>
+            <li class="pure-menu-item"><a href="#testimonials" class="pure-menu-link">Testimonials</a></li>
         </ul>
     </div>
 </div>
 
-<div class="splash-container">
-    <div id="video-container">
+
+<div class="splash-container" >
+    <div id="video-container" >
         <video id="video" playsinline autoplay muted loop preload="none" poster="./splash2.png" style="width:100%; height:100%; object-fit: cover;">
             <source id="webm" src="./ougi.webm" type="video/webm">
             <p>Your user agent does not support the HTML5 Video element.</p>        
         </video>
     </div>
-        <div class="splash">
+        <div class="splash"  >
             <h1 class="splash-head">SPOOKY OUGI</h1>
             <p class="splash-subhead">
                 I need text here.
@@ -43,18 +45,16 @@
                 <a target="_blank" href="https://discord.gg/WxrtcebtBX"><img src="./discord.png"></a>
                 <a target="_blank" href="https://t.me/spoookyougi"><img src="./telegram32.png"></a>
                 <a target="_blank" href="https://kek.tools/t/0x3898c17f84f9fcb754ff8c7ffe9ed3382717667a"><img src="./cryptokek32.png"></a>
-                <a target="_blank" href="https://kek.tools/t/0x3898c17f84f9fcb754ff8c7ffe9ed3382717667a"><img src="./zoo32.png"></a>
+                <a target="_blank" href="https://charts.zoocoin.cash/charts?exchange=SpookySwap&pair=0xfe8870d0Bc17ee15cb62aE9943b420E2265fa444-inverted"><img src="./zoo32.png"></a>
             </p>
         </div>
 </div>
 
-<div class="content-wrapper">
 
-</div>
 
 <div class="content-wrapper"> 
 
-    <div class="ribbon l-box-lrg pure-g" style="background-color: #000;">
+    <div class="ribbon l-box-lrg pure-g" id="about" style="background-color: #000;">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
             <img alt="Sppooookkkkyyy" class="pure-img-responsive" src="./splash.png" style="max-height: 300px;">
         </div>
@@ -80,7 +80,7 @@
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g" style="background-color: #780d11;">
+    <div class="ribbon l-box-lrg pure-g" id="buy" style="background-color: #780d11;">
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
             <h2 class="content-head content-head-ribbon">HOW TO BUY</h2>
@@ -102,7 +102,7 @@
 
 
 
-    <div class="content" >
+    <div class="content" id="roadmap">
         <h2 class="content-head is-center">ROADMAP</h2>
         <div class="pure-g" style="color:#34495e;">
             
@@ -154,8 +154,8 @@
 
 
 
-    <div class="content" style="background-color: #34495e;">
-        <h2 class="content-head is-center" style="color: #aaa;">What the investors says about this</h2>
+    <div class="content" style="background-color: #34495e;" id="testimonials">
+        <h2 class="content-head is-center" style="color: #aaa;">What investors has to say</h2>
 
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
